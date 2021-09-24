@@ -12,6 +12,8 @@ public static class SitesSqlUtility {
 
     */
 
+    //second version
+
     public static string GetSiteObjectQuery(OperationContext<App> cxt)
     {
         //returns the following properties raw as they are in the DB. The DB may contain null / empty values. Check for DBNull.Value before using
