@@ -5,7 +5,7 @@ using System.Threading;
 [Definition(Id = "darrelTestGist", Name = "darrel test gist", Author = "darreldonald", Description = "test")]
 public static class darrelTestGist
 {
-    static string test(){
+    public static string test(){
         return "this is a test";
     }
 
