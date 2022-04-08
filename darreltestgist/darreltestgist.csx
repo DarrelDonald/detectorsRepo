@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 
 [ArmResourceFilter(provider: "Microsoft.AppPlatform", resourceTypeName: "Spring")]
-[Definition(Id = "darrelTestGist", Name = "darrel test gist", Author = "darreldonald", Description = "test16")]
+[Definition(Id = "darrelTestGist", Name = "darrel test gist", Author = "darreldonald", Description = "test17")]
 public static class darrelTestGist
 {
     public static string test(){
