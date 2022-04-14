@@ -1,4 +1,6 @@
 #load "darrelTestGist"
+#load "darrelTestGist2"
+
 using System;
 using System.Threading;
 
@@ -7,6 +9,7 @@ using System.Threading;
 public async static Task<Response> Run(DataProviders dp, OperationContext<ArmResource> cxt, Response res)
 {
     res.AddInsight(InsightStatus.Info, darrelTestGist.test());
+    res.AddInsight(InsightStatus.Info, darrelTestGist2.test());
     
 
     return res;
