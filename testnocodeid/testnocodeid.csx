@@ -4,7 +4,7 @@ public static class testNoCodeId_NoCode_Class{
     public static string GetfirstQueryQuery(OperationContext<App> cxt)
     {
         return
-        $@"print Title = 'issa title', MarkdownString = 'issa markdown string'";
+        $@"print now()";
     }
 
 
